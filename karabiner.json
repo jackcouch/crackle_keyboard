@@ -15,23 +15,23 @@
             "manipulators": [
               {
                 "from": {
-                  "key_code": "caps_lock"
+                  "key_code": "tab"
                 },
                 "to": [
                   {
                     "set_variable": {
-                      "name": "snap_modifier",
+                      "name": "tab_modifier",
                       "value": 1
                     }
                   },
                   {
-                    "key_code": "caps_lock"
+                    "key_code": "tab"
                   }
                 ],
                 "to_after_key_up": [
                   {
                     "set_variable": {
-                      "name": "snap_modifier",
+                      "name": "tab_modifier",
                       "value": 0
                     }
                   }
@@ -81,7 +81,6 @@
         "close_bracket": "left_control",
         "e": "return_or_enter",
         "return_or_enter": "left_option",
-        "tab": "left_control",
         "w": "delete_or_backspace",
         "z": "left_option"
       },
